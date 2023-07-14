@@ -1,18 +1,6 @@
 "use client"
 import { useState } from "react";
-
-const NavSubListItem=({object})=>{
-    return (
-        <div className="border-end py-2 px-3 d-block" style={{height:'65vh'}}>
-            <div className="py-2" style={{color:'#2a7fff',fontWeight:600,width:'200px'}}>{object.title}</div>
-            {
-                object.arr.map((item)=>{
-                    return <div className="py-2" style={{width:'200px',color:'rgba(0,0,0,0.6)',fontWeight:400}}>{item}</div>;
-                })
-            }
-        </div>
-    );
-}
+import NavSubListItem from "./navsublistitem";
 
 const NavListItem=({title,arr})=>{
     const [show,setshow]=useState(false);
@@ -29,8 +17,8 @@ const NavListItem=({title,arr})=>{
             <div className="d-flex align-items-center bg-light rounded mynavlistitems" onMouseEnter={()=>{setshowh(true)}} onMouseLeave={()=>{setshowh(false)}}
             style={{position:'absolute',top:'6vh',left:'10vw',height:'65vh',width:'80vw',overflowY:'scroll'}}>
                 {
-                    arr.map((obj)=>{
-                        return <NavSubListItem object={obj}/>
+                    arr.map((obj,index)=>{
+                        return <NavSubListItem key={index} object={obj}/>
                     })
                 }
             </div>
