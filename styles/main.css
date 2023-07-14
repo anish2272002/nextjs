@@ -1,0 +1,85 @@
+.grid_item{
+    text-align: center;
+}
+
+.grid_grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:2rem 3rem;
+}
+.option-item{
+    display: inline-block;
+    width: 16%;
+}
+.text{
+    font-size:20px;
+    font-weight:600;
+}
+.text-caption{
+    font-size:18px;
+}
+.mysearch{
+    width:46vw;
+}
+.mysearch input{
+    font-size: small;
+}
+.mysearch input:focus{
+    outline:none !important;
+    box-shadow: none !important;
+}
+.mydropdownitems{
+    display: block;
+    position: fixed;
+    top:10vh;
+    left:50vw;
+    transform: translateX(-50%);
+    overflow-x: scroll;
+    column-count: 5;
+    column-width: 200px;
+    border-radius: 0.5rem;
+    width:80vw;
+    height:65vh;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 5;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.6)
+}
+.mydropdown:hover>.nav-link{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.navlistitem{
+    margin-bottom: 3px;
+}
+.navlistitemh{
+    cursor: pointer;
+    color:#2a7fff;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #2a7fff;
+}
+.navlistitemh svg path{
+    fill:#2a7fff;
+}
+@media screen and (max-width:1024px) {
+    .grid_grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .mysearch{
+        width: 30vw;
+    }
+}
+@media screen and (max-width:612px) {
+    .text{
+        font-size: 15px;
+    }
+    .text-caption{
+        font-size:14px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .land{
+        padding-top:3vh;
+    }
+}
