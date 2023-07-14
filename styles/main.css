@@ -19,7 +19,7 @@
     font-size:18px;
 }
 .mysearch{
-    width:46vw;
+    width:500px;
 }
 .mysearch input{
     font-size: small;
@@ -67,7 +67,7 @@
         grid-template-columns: repeat(4,1fr);
     }
     .mysearch{
-        width: 30vw;
+        width: 250px;
     }
 }
 @media screen and (max-width:612px) {

@@ -139,22 +139,6 @@
       ],
       "async": false
     },
-    "/Users/anishkumar/Desktop/Internship/material/components/navbar.jsx": {
-      "id": "(app-client)/./components/navbar.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/anishkumar/Desktop/Internship/material/components/navlistitem.jsx": {
-      "id": "(app-client)/./components/navlistitem.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/anishkumar/Desktop/Internship/material/node_modules/bootstrap/dist/css/bootstrap.css": {
       "id": "(app-client)/./node_modules/bootstrap/dist/css/bootstrap.css",
       "name": "*",
@@ -170,12 +154,28 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/anishkumar/Desktop/Internship/material/components/navbar.jsx": {
+      "id": "(app-client)/./components/navbar.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/anishkumar/Desktop/Internship/material/components/navlistitem.jsx": {
+      "id": "(app-client)/./components/navlistitem.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/anishkumar/Desktop/Internship/material/app/page": [],
     "/Users/anishkumar/Desktop/Internship/material/app/layout": [
       "static/css/app/layout.css"
-    ]
+    ],
+    "/Users/anishkumar/Desktop/Internship/material/app/page": []
   }
 }
