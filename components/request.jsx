@@ -20,7 +20,7 @@ const Request=()=>{
                 </div>
                 <div className="col-md-2"></div>
                 <div className="col-12 mb-4 mb-md-0 col-md-4 text-center">
-                    <img src="assets/request.webp" className="img-fluid rounded" style={{height:'100%'}} alt="Material Request"/>
+                    <img src="assets/request.webp" className="img-fluid rounded" style={{height:'100%'}} alt="Material Request" loading="lazy"/>
                 </div>
             </section>
         </div>

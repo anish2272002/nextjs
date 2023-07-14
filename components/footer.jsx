@@ -3,7 +3,7 @@ const Footer=()=>{
         <div className="container">
             <div className="row py-4">
                 <div className="col-md-3 p-3 my-auto text-center">
-                    <img src="assets/main_logo.svg" alt="Material Depot Logo" width={150}/>
+                    <img src="assets/main_logo.svg" alt="Material Depot Logo" width={150} loading="lazy"/>
                     <p className="th-fontSize-10px th-fontWeight-400 pt-2">@2023 Material Depot All Rights Reserved</p>
                 </div>
                 <div className="col-md-2 p-3">
@@ -39,7 +39,7 @@ const Footer=()=>{
                 </div>
                 <div className="col-md-4 p-3">
                     <p style={{fontWeight:400}}>Download the App Now</p>
-                    <div><img src="assets/googleplay.svg" alt="Android app image" /></div>
+                    <div><img src="assets/googleplay.svg" alt="Android app image" loading='lazy'/></div>
                 </div>
             </div>
             <div className="w-100 p-1 pb-3" style={{fontSize:'0.9em'}}>

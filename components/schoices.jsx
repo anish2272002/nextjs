@@ -18,7 +18,7 @@ const Schoices=()=>{
             {choices.map((obj)=>{
                 return(
                     <div className="mx-2 my-1">
-                        <img className="rounded-circle" style={{height:100,width:100}} src={obj.src} alt={obj.title} />
+                        <img className="rounded-circle" style={{height:100,width:100}} src={obj.src} alt={obj.title} loading="lazy" />
                         <div className="w-100 text-center pt-3">{obj.title}</div>
                     </div>
                 )

@@ -9,7 +9,7 @@ const Options=({title,arr})=>{
                     arr.map((path)=>{
                         return(
                             <div className="p-2 option-item">
-                                <img className="w-100 ratio ratio-1x1" src={path} alt={path} />
+                                <img className="w-100 ratio ratio-1x1" src={path} alt={path} loading="lazy"/>
                             </div>
                         )
                     })
@@ -20,7 +20,7 @@ const Options=({title,arr})=>{
                     arr.map((path)=>{
                         return(
                             <div className="p-2" style={{height:'210px'}}>
-                                <img className="h-100" src={path} alt={path} />
+                                <img className="h-100" src={path} alt={path} loading="lazy"/>
                             </div>
                         )
                     })

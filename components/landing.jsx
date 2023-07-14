@@ -17,8 +17,8 @@ const Landing=()=>{
             </div>
             <div className="col-12 col-md-4 py-2 py-md-0">
                 <div className="h-100">
-                    <img className="image-fluid w-100 h-50 py-1" src="assets/landing/H02.1.jpg" alt="Material Depot Logo" />
-                    <img className="image-fluid w-100 h-50 py-1" src="assets/landing/H03.1.jpg" alt="Material Depot Logo" />
+                    <img className="image-fluid w-100 h-50 py-1" src="assets/landing/H02.1.jpg" alt="Material Depot Logo" loading="lazy"/>
+                    <img className="image-fluid w-100 h-50 py-1" src="assets/landing/H03.1.jpg" alt="Material Depot Logo" loading="lazy"/>
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ const Shop=()=>{
                         tailorList.map((obj)=>{
                             return(
                                 <div className="col-4 col-md-2 mt-3 text-center">
-                                    <img src={obj.src} alt={obj.alt} style={{width:38,height:48}} />
+                                    <img src={obj.src} alt={obj.alt} style={{width:38,height:48}} loading="lazy"/>
                                     <span className="mt-4 text d-block">{obj.title}</span>
                                 </div>
                             );

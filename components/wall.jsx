@@ -10,7 +10,7 @@ const Wall=({title,arr})=>{
                         return (
                             <div className="col">
                                 <img src={obj.src} alt={obj.title} className="border border-0 rounded-4" 
-                                style={{width:'100%',aspectRatio:1,objectFit:'cover'}}/>
+                                style={{width:'100%',aspectRatio:1,objectFit:'cover'}} loading="lazy"/>
                                 <div className="text-center p-2 w-100 text-wrap" style={{fontSize:14}}>
                                     {obj.title}
                                 </div>

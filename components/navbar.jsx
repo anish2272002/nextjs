@@ -128,7 +128,7 @@ const NavBar=()=>{
                 </div>
 
                 <li className="nav-item col d-flex align-items-center px-2">
-                    <img src="assets/md_main_logo.png" alt="Material Depot Logo" width={100} />
+                    <img src="assets/md_main_logo.png" alt="Material Depot Logo" width={100} loading="lazy"/>
                 </li>
             </ul>
             <div className="nav-item d-flex align-items-center d-none d-md-flex">
