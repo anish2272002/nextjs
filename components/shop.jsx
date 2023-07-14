@@ -13,7 +13,7 @@ const Shop=()=>{
                 <section className="row mt-5">
                     {
                         shoplist.map((obj)=>{
-                            return(<ShopItem Key={obj.id} src={obj.src} title={obj.title} description={obj.description} />);
+                            return(<ShopItem key={obj.id} src={obj.src} title={obj.title} description={obj.description} />);
                         })
                     }
                 </section>
